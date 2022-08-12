@@ -1,7 +1,7 @@
 from scapy.all import *
 import requests
 import time
-MAGIC_FORM_URL = 'http://ptsv2.com/t/cwkj8-1658098897/post'
+MAGIC_FORM_URL = '	https://webhook.site/8add6b7b-2898-4270-b285-614d6b3f0583'
 
 def record_nope():
   data = {
