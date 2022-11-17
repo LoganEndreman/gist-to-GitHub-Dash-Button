@@ -8,14 +8,14 @@ def record_nope():
     "Timestamp": time.strftime("%Y-%m-%d %H:%M"), 
     "Measurement": 'Try again. Lock not open.'
   }
-  requests.post(MAGIC_FORM_URL, data)
+  requests.post(MAGIC_FORM_URL, data=data)
 
 def record_yes():
   data = {
     "Timestamp": time.strftime("%Y-%m-%d %H:%M"), 
     "Measurement": 'The key is AB.'
   }
-  requests.post(MAGIC_FORM_URL, data)
+  requests.post(MAGIC_FORM_URL, data=data)
 
 def arp_display(pkt):
   timestamp = time.strftime("%Y-%m-%d %H:%M")
